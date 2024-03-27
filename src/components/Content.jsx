@@ -6,7 +6,7 @@ import image3 from "../assets/images/image-gaming-growth.jpg"
 
 const Content = () => {
   return (
-    <div className="grid grid-cols-1 row-auto gap-4 mt-8 custom-lg:grid-cols-[repeat(3,450px)] custom-lg:grid-rows-[repeat(3,25rem)] custom-lg:gap-x-12">
+    <div className="grid grid-cols-1 row-auto gap-4 mt-8 custom-lg:grid-cols-[repeat(3,440px)] custom-lg:grid-rows-[repeat(3,25rem)] custom-lg:gap-x-12">
       <section className="bg-blue-500 custom-lg:col-span-2 custom-lg:object-cover custom-lg:h-[2rem] custom-lg:order-1">
         <img alt="hero" className="img object-cover h-[30rem]" />
       </section>
@@ -48,7 +48,7 @@ const Content = () => {
           </div>
         </div>
       </section>
-      <section className="mt-8 mb-16 flex flex-col gap-y-9 custom-lg:order-3 custom-lg:mt-20 custom-lg:flex-row custom-lg:col-span-3 custom-lg:grid custom-lg:grid-cols-[repeat(3,450px)] custom-lg:gap-x-12">
+      <section className="mt-8 mb-16 flex flex-col gap-y-9 custom-lg:order-3 custom-lg:mt-20 custom-lg:flex-row custom-lg:col-span-3 custom-lg:grid custom-lg:grid-cols-[repeat(3,440px)] custom-lg:gap-x-12">
         {articlesWithImage(
           image1,
           "01",
